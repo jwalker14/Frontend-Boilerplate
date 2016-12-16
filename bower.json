@@ -1,0 +1,21 @@
+{
+  "name": "inbrowser",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Jason Walker <jason@pica.is>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.3.0",
+    "foundation": "^5.5.3"
+  }
+}
