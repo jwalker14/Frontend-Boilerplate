@@ -1,9 +1,9 @@
 {
-  "name": "inbrowser",
+  "name": "src",
   "description": "",
   "main": "index.js",
   "authors": [
-    "Jason Walker <jason@pica.is>"
+    "Jason Walker <jwalker14@me.com>"
   ],
   "license": "ISC",
   "homepage": "",
@@ -11,11 +11,11 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "src/bower_components",
     "test",
     "tests"
   ],
   "dependencies": {
-    "foundation-sites": "^6.3.0",
-    "foundation": "^5.5.3"
+    "foundation-sites": "^6.3.0"
   }
 }

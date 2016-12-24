@@ -1,0 +1,19 @@
+//FONTS
+@import 'assets/colors';
+@import 'assets/fonts';
+@import 'settings/settings';
+@import 'foundation';
+
+@include foundation-everything;
+
+
+//ASSETS
+
+//Partials
+@import "partials/sidebar";
+@import "partials/topbar";
+@import "partials/scrollbar";
+
+
+// MAIN CONTENT AREAS
+@import "partials/content";

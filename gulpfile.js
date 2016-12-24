@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var browserSync = require('browser-sync').create();
 
 // Include Our Plugins
 var jshint    = require('gulp-jshint');
@@ -10,6 +11,7 @@ var uglify    = require('gulp-uglify');
 var rename    = require('gulp-rename');
 var rev       = require('gulp-rev');
 var path      = require('path');
+var useref = require('gulp-useref');
 
 var paths = {
     dest: 'src'
@@ -24,27 +26,26 @@ gulp.task('lint', function() {
 
 // Compile Our Sass
 gulp.task('compass', function() {
-    gulp.src('src/sass/style.scss')
+    gulp.src('./sass/style.scss')
     .pipe(compass({
-        project: __dirname+'/src',
+        project: __dirname+'',
         import_path: ['bower_components', 'bower_components/foundation-sites/scss'],
         css  : 'styles',
         sass : 'sass',
         image: 'sass/images'
     }))
-    .pipe(minifyCSS())
-    .pipe(rename('style-global.css'))
-    .pipe(gulp.dest('styles'));
+    .pipe(gulp.dest('styles'))
+    .pipe(browserSync.stream());
 });
 
-//SASS
-gulp.task('sass', function() {
-    return gulp.src('src/sass/style.scss')
-        .pipe(sass({ includePaths : [
-                'src/bower_components/foundation-sites/scss',
-         ], outputStyle: 'expanded'}).on('error', sass.logError))
-        .pipe(gulp.dest('src/styles/'))
-});
+// //SASS
+// gulp.task('sass', function() {
+//     return gulp.src('src/sass/style.scss')
+//         .pipe(sass({ includePaths : [
+//                 'bower_components/foundation-sites/scss',
+//          ], outputStyle: 'expanded'}).on('error', sass.logError))
+//         .pipe(gulp.dest('styles/'))
+// });
 
 
 // Concatenate & Minify JS
@@ -59,8 +60,19 @@ gulp.task('scripts', function() {
 
 // Watch Files For Changes
 gulp.task('watch', function() {
-    gulp.watch('./src/scripts/*.js', ['lint', 'scripts']);
-    gulp.watch('./src/sass/*.scss', ['compass']);
+    browserSync.init({
+        server: "./"
+    });
+
+    gulp.watch("sass/**/*.scss", ['compass']);
+    gulp.watch("*.html").on('change', browserSync.reload);
+    gulp.watch('./scripts/**/*.js', ['lint', 'scripts']);
+});
+
+gulp.task('build', function () {
+    return gulp.src('*.html')
+        .pipe(useref())
+        .pipe(gulp.dest('dist'));
 });
 
 // Default Task
