@@ -1,7 +1,18 @@
 .logo{
-	&.large{
-		width:80px;
-		height:80px;
-		background-color:white;
+
+  // 1.1594202899 ratio for SVG logo
+
+  &.large{
+		width:calc(109px * 1.1594202899);
+		height:109px;
+    @include background-image('logo-white');
+
+    &.white{
+      @include background-image('logo-white');
+    }
 	}
+
+  &.center{
+    margin:0 auto;
+  }
 }

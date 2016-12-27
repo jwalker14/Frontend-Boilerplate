@@ -1,0 +1,395 @@
+@font-face {
+  font-family: "Univers";
+  src: url("/fonts/Univers/Univers.eot?") format("eot"), url("/fonts/Univers/Univers.woff2") format("woff2"), url("/fonts/Univers/Univers.woff") format("woff"), url("/fonts/Univers/Univers.ttf") format("truetype"), url("/fonts/Univers/Univers.svg#Univers") format("svg");
+}
+@font-face {
+  font-family: "Univers-Black";
+  src: url("/fonts/Univers-Black/Univers-Black.eot?") format("eot"), url("/fonts/Univers-Black/Univers-Black.woff2") format("woff2"), url("/fonts/Univers-Black/Univers-Black.woff") format("woff"), url("/fonts/Univers-Black/Univers-Black.ttf") format("truetype"), url("/fonts/Univers-Black/Univers-Black.svg#Univers-Black") format("svg");
+}
+@font-face {
+  font-family: "Univers-BlackOblique";
+  src: url("/fonts/Univers-BlackOblique/Univers-BlackOblique.eot?") format("eot"), url("/fonts/Univers-BlackOblique/Univers-BlackOblique.woff2") format("woff2"), url("/fonts/Univers-BlackOblique/Univers-BlackOblique.woff") format("woff"), url("/fonts/Univers-BlackOblique/Univers-BlackOblique.ttf") format("truetype"), url("/fonts/Univers-BlackOblique/Univers-BlackOblique.svg#Univers-BlackOblique") format("svg");
+}
+@font-face {
+  font-family: "Univers-Bold";
+  src: url("/fonts/Univers-Bold/Univers-Bold.eot?") format("eot"), url("/fonts/Univers-Bold/Univers-Bold.woff2") format("woff2"), url("/fonts/Univers-Bold/Univers-Bold.woff") format("woff"), url("/fonts/Univers-Bold/Univers-Bold.ttf") format("truetype"), url("/fonts/Univers-Bold/Univers-Bold.svg#Univers-Bold") format("svg");
+}
+@font-face {
+  font-family: "Univers-BoldExt";
+  src: url("/fonts/Univers-BoldExt/Univers-BoldExt.eot?") format("eot"), url("/fonts/Univers-BoldExt/Univers-BoldExt.woff2") format("woff2"), url("/fonts/Univers-BoldExt/Univers-BoldExt.woff") format("woff"), url("/fonts/Univers-BoldExt/Univers-BoldExt.ttf") format("truetype"), url("/fonts/Univers-BoldExt/Univers-BoldExt.svg#Univers-BoldExt") format("svg");
+}
+@font-face {
+  font-family: "Univers-BoldExtObl";
+  src: url("/fonts/Univers-BoldExtObl/Univers-BoldExtObl.eot?") format("eot"), url("/fonts/Univers-BoldExtObl/Univers-BoldExtObl.woff2") format("woff2"), url("/fonts/Univers-BoldExtObl/Univers-BoldExtObl.woff") format("woff"), url("/fonts/Univers-BoldExtObl/Univers-BoldExtObl.ttf") format("truetype"), url("/fonts/Univers-BoldExtObl/Univers-BoldExtObl.svg#Univers-BoldExtObl") format("svg");
+}
+@font-face {
+  font-family: "Univers-BoldOblique";
+  src: url("/fonts/Univers-BoldOblique/Univers-BoldOblique.eot?") format("eot"), url("/fonts/Univers-BoldOblique/Univers-BoldOblique.woff2") format("woff2"), url("/fonts/Univers-BoldOblique/Univers-BoldOblique.woff") format("woff"), url("/fonts/Univers-BoldOblique/Univers-BoldOblique.ttf") format("truetype"), url("/fonts/Univers-BoldOblique/Univers-BoldOblique.svg#Univers-BoldOblique") format("svg");
+}
+@font-face {
+  font-family: "Univers-Condensed";
+  src: url("/fonts/Univers-Condensed/Univers-Condensed.eot?") format("eot"), url("/fonts/Univers-Condensed/Univers-Condensed.woff2") format("woff2"), url("/fonts/Univers-Condensed/Univers-Condensed.woff") format("woff"), url("/fonts/Univers-Condensed/Univers-Condensed.ttf") format("truetype"), url("/fonts/Univers-Condensed/Univers-Condensed.svg#Univers-Condensed") format("svg");
+}
+@font-face {
+  font-family: "Univers-CondensedBold";
+  src: url("/fonts/Univers-CondensedBold/Univers-CondensedBold.eot?") format("eot"), url("/fonts/Univers-CondensedBold/Univers-CondensedBold.woff2") format("woff2"), url("/fonts/Univers-CondensedBold/Univers-CondensedBold.woff") format("woff"), url("/fonts/Univers-CondensedBold/Univers-CondensedBold.ttf") format("truetype"), url("/fonts/Univers-CondensedBold/Univers-CondensedBold.svg#Univers-CondensedBold") format("svg");
+}
+@font-face {
+  font-family: "Univers-CondensedBoldOblique";
+  src: url("/fonts/Univers-CondensedBoldOblique/Univers-CondensedBoldOblique.eot?") format("eot"), url("/fonts/Univers-CondensedBoldOblique/Univers-CondensedBoldOblique.woff2") format("woff2"), url("/fonts/Univers-CondensedBoldOblique/Univers-CondensedBoldOblique.woff") format("woff"), url("/fonts/Univers-CondensedBoldOblique/Univers-CondensedBoldOblique.ttf") format("truetype"), url("/fonts/Univers-CondensedBoldOblique/Univers-CondensedBoldOblique.svg#Univers-CondensedBoldOblique") format("svg");
+}
+@font-face {
+  font-family: "Univers-CondensedLight";
+  src: url("/fonts/Univers-CondensedLight/Univers-CondensedLight.eot?") format("eot"), url("/fonts/Univers-CondensedLight/Univers-CondensedLight.woff2") format("woff2"), url("/fonts/Univers-CondensedLight/Univers-CondensedLight.woff") format("woff"), url("/fonts/Univers-CondensedLight/Univers-CondensedLight.ttf") format("truetype"), url("/fonts/Univers-CondensedLight/Univers-CondensedLight.svg#Univers-CondensedLight") format("svg");
+}
+@font-face {
+  font-family: "Univers-CondensedLightOblique";
+  src: url("/fonts/Univers-CondensedLightObliq/Univers-CondensedLightOblique.eot?") format("eot"), url("/fonts/Univers-CondensedLightObliq/Univers-CondensedLightOblique.woff2") format("woff2"), url("/fonts/Univers-CondensedLightObliq/Univers-CondensedLightOblique.woff") format("woff"), url("/fonts/Univers-CondensedLightObliq/Univers-CondensedLightOblique.ttf") format("truetype"), url("/fonts/Univers-CondensedLightObliq/Univers-CondensedLightOblique.svg#Univers-CondensedLightOblique") format("svg");
+}
+@font-face {
+  font-family: "Univers-CondensedOblique";
+  src: url("/fonts/Univers-CondensedOblique/Univers-CondensedOblique.eot?") format("eot"), url("/fonts/Univers-CondensedOblique/Univers-CondensedOblique.woff2") format("woff2"), url("/fonts/Univers-CondensedOblique/Univers-CondensedOblique.woff") format("woff"), url("/fonts/Univers-CondensedOblique/Univers-CondensedOblique.ttf") format("truetype"), url("/fonts/Univers-CondensedOblique/Univers-CondensedOblique.svg#Univers-CondensedOblique") format("svg");
+}
+@font-face {
+  font-family: "Univers-Extended";
+  src: url("/fonts/Univers-Extended/Univers-Extended.eot?") format("eot"), url("/fonts/Univers-Extended/Univers-Extended.woff2") format("woff2"), url("/fonts/Univers-Extended/Univers-Extended.woff") format("woff"), url("/fonts/Univers-Extended/Univers-Extended.ttf") format("truetype"), url("/fonts/Univers-Extended/Univers-Extended.svg#Univers-Extended") format("svg");
+}
+@font-face {
+  font-family: "Univers-ExtendedObl";
+  src: url("/fonts/Univers-ExtendedObl/Univers-ExtendedObl.eot?") format("eot"), url("/fonts/Univers-ExtendedObl/Univers-ExtendedObl.woff2") format("woff2"), url("/fonts/Univers-ExtendedObl/Univers-ExtendedObl.woff") format("woff"), url("/fonts/Univers-ExtendedObl/Univers-ExtendedObl.ttf") format("truetype"), url("/fonts/Univers-ExtendedObl/Univers-ExtendedObl.svg#Univers-ExtendedObl") format("svg");
+}
+@font-face {
+  font-family: "Univers-Light";
+  src: url("/fonts/Univers-Light/Univers-Light.eot?") format("eot"), url("/fonts/Univers-Light/Univers-Light.woff2") format("woff2"), url("/fonts/Univers-Light/Univers-Light.woff") format("woff"), url("/fonts/Univers-Light/Univers-Light.ttf") format("truetype"), url("/fonts/Univers-Light/Univers-Light.svg#Univers-Light") format("svg");
+}
+@font-face {
+  font-family: "Univers-LightOblique";
+  src: url("/fonts/Univers-LightOblique/Univers-LightOblique.eot?") format("eot"), url("/fonts/Univers-LightOblique/Univers-LightOblique.woff2") format("woff2"), url("/fonts/Univers-LightOblique/Univers-LightOblique.woff") format("woff"), url("/fonts/Univers-LightOblique/Univers-LightOblique.ttf") format("truetype"), url("/fonts/Univers-LightOblique/Univers-LightOblique.svg#Univers-LightOblique") format("svg");
+}
+@font-face {
+  font-family: "Univers-Oblique";
+  src: url("/fonts/Univers-Oblique/Univers-Oblique.eot?") format("eot"), url("/fonts/Univers-Oblique/Univers-Oblique.woff2") format("woff2"), url("/fonts/Univers-Oblique/Univers-Oblique.woff") format("woff"), url("/fonts/Univers-Oblique/Univers-Oblique.ttf") format("truetype"), url("/fonts/Univers-Oblique/Univers-Oblique.svg#Univers-Oblique") format("svg");
+}
+@font-face {
+  font-family: "UniversS-Bold";
+  src: url("/fonts/UniversS-Bold/UniversS-Bold.eot?") format("eot"), url("/fonts/UniversS-Bold/UniversS-Bold.woff2") format("woff2"), url("/fonts/UniversS-Bold/UniversS-Bold.woff") format("woff"), url("/fonts/UniversS-Bold/UniversS-Bold.ttf") format("truetype"), url("/fonts/UniversS-Bold/UniversS-Bold.svg#UniversS-Bold") format("svg");
+}
+@font-face {
+  font-family: "UniversS-Condensed";
+  src: url("/fonts/UniversS-Condensed/UniversS-Condensed.eot?") format("eot"), url("/fonts/UniversS-Condensed/UniversS-Condensed.woff2") format("woff2"), url("/fonts/UniversS-Condensed/UniversS-Condensed.woff") format("woff"), url("/fonts/UniversS-Condensed/UniversS-Condensed.ttf") format("truetype"), url("/fonts/UniversS-Condensed/UniversS-Condensed.svg#UniversS-Condensed") format("svg");
+}
+@font-face {
+  font-family: "UniversS-CondensedBold";
+  src: url("/fonts/UniversS-CondensedBold/UniversS-CondensedBold.eot?") format("eot"), url("/fonts/UniversS-CondensedBold/UniversS-CondensedBold.woff2") format("woff2"), url("/fonts/UniversS-CondensedBold/UniversS-CondensedBold.woff") format("woff"), url("/fonts/UniversS-CondensedBold/UniversS-CondensedBold.ttf") format("truetype"), url("/fonts/UniversS-CondensedBold/UniversS-CondensedBold.svg#UniversS-CondensedBold") format("svg");
+}
+@font-face {
+  font-family: "UniversS-CondensedLight";
+  src: url("/fonts/UniversS-CondensedLight/UniversS-CondensedLight.eot?") format("eot"), url("/fonts/UniversS-CondensedLight/UniversS-CondensedLight.woff2") format("woff2"), url("/fonts/UniversS-CondensedLight/UniversS-CondensedLight.woff") format("woff"), url("/fonts/UniversS-CondensedLight/UniversS-CondensedLight.ttf") format("truetype"), url("/fonts/UniversS-CondensedLight/UniversS-CondensedLight.svg#UniversS-CondensedLight") format("svg");
+}
+@font-face {
+  font-family: "UniversS-Italic";
+  src: url("/fonts/UniversS-Italic/UniversS-Italic.eot?") format("eot"), url("/fonts/UniversS-Italic/UniversS-Italic.woff2") format("woff2"), url("/fonts/UniversS-Italic/UniversS-Italic.woff") format("woff"), url("/fonts/UniversS-Italic/UniversS-Italic.ttf") format("truetype"), url("/fonts/UniversS-Italic/UniversS-Italic.svg#UniversS-Italic") format("svg");
+}
+@font-face {
+  font-family: "UniversS-Light";
+  src: url("/fonts/UniversS-Light/UniversS-Light.eot?") format("eot"), url("/fonts/UniversS-Light/UniversS-Light.woff2") format("woff2"), url("/fonts/UniversS-Light/UniversS-Light.woff") format("woff"), url("/fonts/UniversS-Light/UniversS-Light.ttf") format("truetype"), url("/fonts/UniversS-Light/UniversS-Light.svg#UniversS-Light") format("svg");
+}
+@font-face {
+  font-family: "UniversS-LightItalic";
+  src: url("/fonts/UniversS-LightItalic/UniversS-LightItalic.eot?") format("eot"), url("/fonts/UniversS-LightItalic/UniversS-LightItalic.woff2") format("woff2"), url("/fonts/UniversS-LightItalic/UniversS-LightItalic.woff") format("woff"), url("/fonts/UniversS-LightItalic/UniversS-LightItalic.ttf") format("truetype"), url("/fonts/UniversS-LightItalic/UniversS-LightItalic.svg#UniversS-LightItalic") format("svg");
+}
+@font-face {
+  font-family: "UniversS-Roman";
+  src: url("/fonts/UniversS-Roman/UniversS-Roman.eot?") format("eot"), url("/fonts/UniversS-Roman/UniversS-Roman.woff2") format("woff2"), url("/fonts/UniversS-Roman/UniversS-Roman.woff") format("woff"), url("/fonts/UniversS-Roman/UniversS-Roman.ttf") format("truetype"), url("/fonts/UniversS-Roman/UniversS-Roman.svg#UniversS-Roman") format("svg");
+}
+.type.Univers {
+  font-family: "Univers";
+}
+.type.Univers.black {
+  font-family: "Univers-Black";
+}
+.type.Univers.black.obl {
+  font-family: "Univers-BlackOblique";
+}
+.type.Univers.bold {
+  font-family: "Univers-Bold";
+}
+.type.Univers.bold.ext {
+  font-family: "Univers-BoldExt";
+}
+.type.Univers.bold.ext.obl {
+  font-family: "Univers-BoldExtObl";
+}
+.type.Univers.bold.obl {
+  font-family: "Univers-BoldOblique";
+}
+.type.Univers.cond {
+  font-family: "Univers-Condensed";
+}
+.type.Univers.cond.bold {
+  font-family: "Univers-CondensedBold";
+}
+.type.Univers.cond.bold.obl {
+  font-family: "Univers-CondensedBoldOblique";
+}
+.type.Univers.cond.light {
+  font-family: "Univers-CondensedLight";
+}
+.type.Univers.cond.light.obl {
+  font-family: "Univers-CondensedLightOblique";
+}
+.type.Univers.cond.obl {
+  font-family: "Univers-CondensedOblique";
+}
+.type.Univers.ext {
+  font-family: "Univers-Extended";
+}
+.type.Univers.ext.obl {
+  font-family: "Univers-ExtendedObl";
+}
+.type.Univers.light {
+  font-family: "Univers-Light";
+}
+.type.Univers.light.obl {
+  font-family: "Univers-LightObl";
+}
+.type.Univers.obl {
+  font-family: "Univers-Oblique";
+}
+.type.Univers.S.bold {
+  font-family: "UniversS-Bold";
+}
+.type.Univers.S.cond {
+  font-family: "UniversS-Condensed";
+}
+.type.Univers.S.cond.bold {
+  font-family: "UniversS-CondensedBold";
+}
+.type.Univers.S.cond.light {
+  font-family: "UniversS-CondensedLight";
+}
+.type.Univers.S.italic {
+  font-family: "UniversS-Italic";
+}
+.type.Univers.S.light {
+  font-family: "UniversS-Light";
+}
+.type.Univers.S.light.italic {
+  font-family: "UniversS-LightItalic";
+}
+.type.Univers.S.roman {
+  font-family: "UniversS-Roman";
+}
+
+.i.arrow-dots {
+  background-image: url(../images/arrow-dots-white.svg);
+}
+.no-svg .i.arrow-dots {
+  background-image: url(../images/arrow-dots-white.png);
+}
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  .no-svg .i.arrow-dots {
+    background-image: url(../images/arrow-dots-white@2x.png);
+  }
+}
+.i.arrow-dots.black {
+  background-image: url(../images/arrow-dots-black.svg);
+}
+.no-svg .i.arrow-dots.black {
+  background-image: url(../images/arrow-dots-black.png);
+}
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  .no-svg .i.arrow-dots.black {
+    background-image: url(../images/arrow-dots-black@2x.png);
+  }
+}
+
+.logo.large {
+  width: calc(109px * 1.1594202899);
+  height: 109px;
+  background-image: url(../images/logo-white.svg);
+}
+.no-svg .logo.large {
+  background-image: url(../images/logo-white.png);
+}
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  .no-svg .logo.large {
+    background-image: url(../images/logo-white@2x.png);
+  }
+}
+.logo.large.white {
+  background-image: url(../images/logo-white.svg);
+}
+.no-svg .logo.large.white {
+  background-image: url(../images/logo-white.png);
+}
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  .no-svg .logo.large.white {
+    background-image: url(../images/logo-white@2x.png);
+  }
+}
+.logo.center {
+  margin: 0 auto;
+}
+
+#sidebar {
+  background-color: black;
+  padding-top: 20px;
+}
+#sidebar nav ul {
+  color: white;
+}
+
+#topbar {
+  background-color: black;
+  min-height: 40px;
+  margin-right: 40px;
+  color: #D0D2D3;
+  /* Small only */
+  /* Medium and up */
+  /* Medium only */
+  /* Large and up */
+  /* Large only */
+}
+#topbar .title-bar-left {
+  font-size: .9em;
+  letter-spacing: 1px;
+}
+#topbar .title-bar-right nav ul {
+  margin-bottom: 0;
+}
+#topbar .title-bar-right nav ul li {
+  float: left;
+  list-style: none;
+  letter-spacing: 1px;
+}
+#topbar .title-bar-right nav ul li a {
+  color: inherit;
+}
+#topbar .title-bar-right nav ul li:hover, #topbar .title-bar-right nav ul li.green {
+  color: #5f9c3e;
+}
+#topbar .title-bar-right nav ul li:hover:after, #topbar .title-bar-right nav ul li.green:after {
+  color: #D0D2D3;
+}
+#topbar .title-bar-right nav ul li:after {
+  margin-left: 7px;
+  content: "|";
+  margin-right: 7px;
+}
+#topbar .title-bar-right nav ul li:last-child:after {
+  content: "";
+  margin-left: 0;
+  margin-right: 0;
+}
+@media screen and (min-width: 64em) {
+  #topbar {
+    margin-left: 200px;
+  }
+}
+
+#scrollbar {
+  position: fixed;
+  width: 40px;
+  height: 100vh;
+  background-color: #72BE44;
+  top: 0;
+  right: 0;
+}
+#scrollbar .search {
+  position: relative;
+  width: 100%;
+  min-height: 40px;
+  top: 0;
+  background-color: #5f9c3e;
+  padding-top: 8px;
+  padding-left: 12px;
+}
+#scrollbar .search .fa-search {
+  color: white;
+}
+#scrollbar .arrow {
+  height: 19px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -9.5px;
+  margin-left: -12.5px;
+}
+#scrollbar .arrow .i {
+  width: 25px;
+  height: 100%;
+}
+
+#content {
+  margin-right: 40px;
+  height: calc(100vh - 40px);
+  overflow: hidden;
+}
+#content .inner {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+#image-carousel {
+  height: 400px;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+#image-carousel .handle {
+  width: 400%;
+  height: 100%;
+  border-radius: 0;
+}
+
+#image-carousel .handle .slide {
+  float: left;
+  position: relative;
+  width: 25%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#image-carousel .handle .img1 {
+  background-image: url("../image/carousel/aston-martin-db4.jpg");
+}
+
+#image-carousel .handle .img2 {
+  background-image: url("../image/carousel/mercedes-benz-300sl.jpg");
+}
+
+#image-carousel .handle .img3 {
+  background-image: url("../image/carousel/jaguar-e-type.jpg");
+}
+
+#image-carousel .handle .img4 {
+  background-image: url("../image/carousel/maserati-a6.jpg");
+}
+
+#image-carousel .handle .slide .info {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 10px 15px;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#image-carousel .handle .slide .info p {
+  margin: 0;
+}
+
+#image-carousel .handle .slide .info .title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+#image-carousel .handle .slide .info .description {
+  color: #333;
+  font-size: 16px;
+  line-height: 20px;
+}

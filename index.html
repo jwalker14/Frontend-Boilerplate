@@ -3,6 +3,7 @@
 	<head>
 		<!-- build:css css/combined.css -->
 		<link href="styles/style.css" rel="stylesheet">
+		<link href="styles/theme.css" rel="stylesheet">
 		<link href="bower_components/dragdealer/src/dragdealer.css" rel="stylesheet">
 		<!-- endbuild -->
 	</head>
@@ -16,12 +17,19 @@
 					<button class="menu-icon hide-for-large" type="button" data-open="sidebar"></button>
 
 					<!-- BAR STUFF -->
-					LEFT
+					HOME / EXHIBITIONS
 				</div>
 
 				<!-- RIGHT BAR -->
 				<div class="title-bar-right">
-					RIGHT
+					<nav>
+						<ul>
+							<li><a href="" title="About">About</a></li>
+							<li><a href="" title="Collection">Collection</a></li>
+							<li><a href="" title="Join">Join</a></li>
+							<li class="green"><a href="" title="Buy Ticket">Buy Tickets</a></li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 			<!-- END TOPBAR -->
@@ -33,7 +41,7 @@
 				<div id="sidebar" class="off-canvas position-left reveal-for-large" data-off-canvas data-position="left">
 					<div class="row column">
 						<br>
-						<div class="logo large"></div>
+						<div class="logo large white center"></div>
 					</div>
 					<div class="row column">
 						<nav>
@@ -178,10 +186,10 @@
 			<!-- SCROLLBAR -->
 			<div id="scrollbar">
 				<div class="search">
-					Search
+					<i class="fa fa-search fa-flip-horizontal" aria-hidden="true"></i>
 				</div>
 				<div class="arrow">
-					->
+					<div class="i arrow-dots"></div>
 				</div>
 			</div>
 			<!-- END SCROLLBAR -->

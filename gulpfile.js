@@ -26,10 +26,10 @@ gulp.task('lint', function() {
 
 // Compile Our Sass
 gulp.task('compass', function() {
-    gulp.src('./sass/style.scss')
+    gulp.src('./sass/*.scss')
     .pipe(compass({
         project: __dirname+'',
-        import_path: ['bower_components', 'bower_components/foundation-sites/scss'],
+        import_path: ['bower_components', 'bower_components/foundation-sites/scss', 'bower_components/font-awesome/scss'],
         css  : 'styles',
         sass : 'sass',
         image: 'sass/images'

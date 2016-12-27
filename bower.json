@@ -17,6 +17,8 @@
   ],
   "dependencies": {
     "foundation-sites": "^6.3.0",
-    "trmix": "^1.1.0"
+    "trmix": "^1.1.0",
+    "dragdealer": "^0.9.9",
+    "font-awesome": "^4.7.0"
   }
 }

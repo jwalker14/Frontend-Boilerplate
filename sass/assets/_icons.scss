@@ -1,0 +1,10 @@
+.i{
+  &.arrow-dots{
+    // 1.3157894737 ratio
+    @include background-image('arrow-dots-white');
+
+    &.black{
+      @include background-image('arrow-dots-black');
+    }
+  }
+}
