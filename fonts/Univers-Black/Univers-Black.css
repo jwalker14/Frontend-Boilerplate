@@ -1,0 +1,12 @@
+/* Webfont: Univers-Black */@font-face {
+    font-family: 'Univers-Black';
+    src: url('Univers-Black.eot'); /* IE9 Compat Modes */
+    src: url('Univers-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Univers-Black.woff') format('woff'), /* Modern Browsers */
+         url('Univers-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Univers-Black.svg#Univers-Black') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

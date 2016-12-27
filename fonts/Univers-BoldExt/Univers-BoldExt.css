@@ -1,0 +1,12 @@
+/* Webfont: Univers-BoldExt */@font-face {
+    font-family: 'UniversBoldExt';
+    src: url('Univers-BoldExt.eot'); /* IE9 Compat Modes */
+    src: url('Univers-BoldExt.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Univers-BoldExt.woff') format('woff'), /* Modern Browsers */
+         url('Univers-BoldExt.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Univers-BoldExt.svg#Univers-BoldExt') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

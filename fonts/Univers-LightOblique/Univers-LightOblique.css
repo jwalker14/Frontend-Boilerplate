@@ -1,0 +1,12 @@
+/* Webfont: Univers-LightOblique */@font-face {
+    font-family: 'LOUnivers45LightOblique';
+    src: url('Univers-LightOblique.eot'); /* IE9 Compat Modes */
+    src: url('Univers-LightOblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Univers-LightOblique.woff') format('woff'), /* Modern Browsers */
+         url('Univers-LightOblique.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Univers-LightOblique.svg#Univers-LightOblique') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

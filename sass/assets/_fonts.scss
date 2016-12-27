@@ -1,3 +1,111 @@
-body{
-	background-color:black;
+@include font-face(Univers, /fonts/Univers/Univers);
+@include font-face(Univers-Black, /fonts/Univers-Black/Univers-Black);
+@include font-face(Univers-BlackOblique, /fonts/Univers-BlackOblique/Univers-BlackOblique);
+@include font-face(Univers-Bold, /fonts/Univers-Bold/Univers-Bold);
+@include font-face(Univers-BoldExt, /fonts/Univers-BoldExt/Univers-BoldExt);
+@include font-face(Univers-BoldExtObl, /fonts/Univers-BoldExtObl/Univers-BoldExtObl);
+@include font-face(Univers-BoldOblique, /fonts/Univers-BoldOblique/Univers-BoldOblique);
+@include font-face(Univers-Condensed, /fonts/Univers-Condensed/Univers-Condensed);
+@include font-face(Univers-CondensedBold, /fonts/Univers-CondensedBold/Univers-CondensedBold);
+@include font-face(Univers-CondensedBoldOblique, /fonts/Univers-CondensedBoldOblique/Univers-CondensedBoldOblique);
+@include font-face(Univers-CondensedLight, /fonts/Univers-CondensedLight/Univers-CondensedLight);
+@include font-face(Univers-CondensedLightOblique, /fonts/Univers-CondensedLightObliq/Univers-CondensedLightOblique);
+@include font-face(Univers-CondensedOblique, /fonts/Univers-CondensedOblique/Univers-CondensedOblique);
+@include font-face(Univers-Extended, /fonts/Univers-Extended/Univers-Extended);
+@include font-face(Univers-ExtendedObl, /fonts/Univers-ExtendedObl/Univers-ExtendedObl);
+@include font-face(Univers-Light, /fonts/Univers-Light/Univers-Light);
+@include font-face(Univers-LightOblique, /fonts/Univers-LightOblique/Univers-LightOblique);
+@include font-face(Univers-Oblique, /fonts/Univers-Oblique/Univers-Oblique);
+@include font-face(UniversS-Bold, /fonts/UniversS-Bold/UniversS-Bold);
+@include font-face(UniversS-Condensed, /fonts/UniversS-Condensed/UniversS-Condensed);
+@include font-face(UniversS-CondensedBold, /fonts/UniversS-CondensedBold/UniversS-CondensedBold);
+@include font-face(UniversS-CondensedLight, /fonts/UniversS-CondensedLight/UniversS-CondensedLight);
+@include font-face(UniversS-Italic, /fonts/UniversS-Italic/UniversS-Italic);
+@include font-face(UniversS-Light, /fonts/UniversS-Light/UniversS-Light);
+@include font-face(UniversS-LightItalic, /fonts/UniversS-LightItalic/UniversS-LightItalic);
+@include font-face(UniversS-Roman, /fonts/UniversS-Roman/UniversS-Roman);
+
+.type{
+	&.Univers{
+		font-family: "Univers";
+		&.black{
+			font-family: "Univers-Black";
+			&.obl{
+				font-family: "Univers-BlackOblique";
+			}
+		}
+		&.bold{
+			font-family: "Univers-Bold";
+			&.ext{
+				font-family: "Univers-BoldExt";
+				&.obl{
+					font-family: "Univers-BoldExtObl";
+				}
+			}
+			&.obl{
+				font-family: "Univers-BoldOblique";
+			}
+		}
+		&.cond{
+			font-family: "Univers-Condensed";
+			&.bold{
+				font-family: "Univers-CondensedBold";
+				&.obl{
+					font-family: "Univers-CondensedBoldOblique";
+				}
+			}
+			&.light{
+				font-family: "Univers-CondensedLight";
+				&.obl{
+					font-family: "Univers-CondensedLightOblique";
+				}
+			}
+			&.obl{
+				font-family: "Univers-CondensedOblique";
+			}
+		}
+		&.ext{
+			font-family: "Univers-Extended";
+			&.obl{
+				font-family: "Univers-ExtendedObl";
+			}
+		}
+		&.light{
+			font-family: "Univers-Light";
+			&.obl{
+				font-family: "Univers-LightObl";
+			}
+		}
+		&.obl{
+			font-family: "Univers-Oblique";
+		}
+		&.S{
+			&.bold{
+				font-family: "UniversS-Bold";
+			}
+			&.cond{
+				font-family: "UniversS-Condensed";
+
+				&.bold{
+					font-family: "UniversS-CondensedBold";
+				}
+				&.light{
+					font-family: "UniversS-CondensedLight";
+				}
+			}
+			&.italic{
+				font-family: "UniversS-Italic";
+			}
+			&.light{
+				font-family: "UniversS-Light";
+
+				&.italic{
+					font-family: "UniversS-LightItalic";
+				}
+			}
+			&.roman{
+				font-family: "UniversS-Roman";
+			}
+		}
+	}
 }

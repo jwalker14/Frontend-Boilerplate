@@ -1,0 +1,12 @@
+/* Webfont: Univers-CondensedOblique */@font-face {
+    font-family: 'Univers57CondensedOblique';
+    src: url('Univers-CondensedOblique.eot'); /* IE9 Compat Modes */
+    src: url('Univers-CondensedOblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Univers-CondensedOblique.woff') format('woff'), /* Modern Browsers */
+         url('Univers-CondensedOblique.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Univers-CondensedOblique.svg#Univers-CondensedOblique') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

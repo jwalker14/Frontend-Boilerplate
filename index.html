@@ -3,14 +3,26 @@
 	<head>
 		<!-- build:css css/combined.css -->
 		<link href="styles/style.css" rel="stylesheet">
+		<link href="bower_components/dragdealer/src/dragdealer.css" rel="stylesheet">
 		<!-- endbuild -->
 	</head>
 	<body>
 		<div class="off-canvas-wrapper">
 
 			<!-- TOPBAR -->
-			<div id="topbar" class="row columns">
-				TOPBAR
+			<div id="topbar" class="title-bar">
+				<div class="title-bar-left">
+					<!-- HIDE ON LARGE ONLY -->
+					<button class="menu-icon hide-for-large" type="button" data-open="sidebar"></button>
+
+					<!-- BAR STUFF -->
+					LEFT
+				</div>
+
+				<!-- RIGHT BAR -->
+				<div class="title-bar-right">
+					RIGHT
+				</div>
 			</div>
 			<!-- END TOPBAR -->
 
@@ -18,33 +30,64 @@
 			<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
 				<!-- SIDEBAR -->
-				<div id="sidebar" class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+				<div id="sidebar" class="off-canvas position-left reveal-for-large" data-off-canvas data-position="left">
 					<div class="row column">
 						<br>
-						<img class="thumbnail" src="http://placehold.it/550x350">
-						<h5>Jason Walker</h5>
-						<p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo.</p>
+						<div class="logo large"></div>
+					</div>
+					<div class="row column">
+						<nav>
+							<ul>
+								<li>Visit</li>
+								<li>Experience</li>
+								<li>Learn</li>
+								<li>Support</li>
+								<li>Shop</li>
+								<li class="green-arrow">Today</li>
+							</ul>
+						</nav>
 					</div>
 				</div>
-
-
-
 
 				<!-- CONTENT MIDDLE -->
 				<div id="content" class="off-canvas-content" data-off-canvas-content>
 
-					<!-- INNER SCROLL PANES -->
 					<div class="inner">
-						<div class="title-bar hide-for-large">
-							<div class="title-bar-left">
-								<button class="menu-icon" type="button" data-open="my-info"></button>
-								<span class="title-bar-title">Mike Mikerson</span>
-							</div>
-						</div>
+
+						<!-- TEXT CONTENT -->
 						<div class="callout primary">
 							<div class="row column">
 								<h1>Hello! This is the portfolio of a very witty person.</h1>
 								<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla.</p>
+
+								<div id="image-carousel" class="dragdealer">
+			            <div class="handle" style="perspective: 1000px; backface-visibility: hidden; transform: translateX(-740px);">
+			              <div class="slide img1">
+			                <div class="info">
+			                  <p class="title">Aston Martin DB4</p>
+			                  <p class="description"><strong>1959</strong> — 3.7L, 240hp</p>
+			                </div>
+			              </div>
+			              <div class="slide img2">
+			                <div class="info">
+			                  <p class="title">Mercedes-Benz 300SL</p>
+			                  <p class="description"><strong>1956</strong> — 2996cc, 212-222hp</p>
+			                </div>
+			              </div>
+			              <div class="slide img3">
+			                <div class="info">
+			                  <p class="title">Jaguar E-Type</p>
+			                  <p class="description"><strong>1966</strong> — 3.8L, 265bhp</p>
+			                </div>
+			              </div>
+			              <div class="slide img4">
+			                <div class="info">
+			                  <p class="title">Maserati A6</p>
+			                  <p class="description"><strong>1950</strong> — 2L, 120bhp</p>
+			                </div>
+			              </div>
+			            </div>
+			          </div>
 							</div>
 						</div>
 						<div class="row small-up-2 medium-up-3 large-up-4">
@@ -147,6 +190,8 @@
 		<!-- build:js scripts/combined.js -->
 		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script type="text/javascript" src="bower_components/foundation-sites/dist/js/foundation.min.js"></script>
+		<script src="bower_components/trmix/dist/trmix.min.js"></script>
+		<script src="bower_components/dragdealer/src/dragdealer.js"></script>
 		<script type="text/javascript" src="scripts/main.js"></script>
 		<!-- endbuild -->
 	</body>

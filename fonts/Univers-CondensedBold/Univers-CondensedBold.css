@@ -1,0 +1,12 @@
+/* Webfont: Univers-CondensedBold */@font-face {
+    font-family: 'CBUnivers67CondensedBold';
+    src: url('Univers-CondensedBold.eot'); /* IE9 Compat Modes */
+    src: url('Univers-CondensedBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Univers-CondensedBold.woff') format('woff'), /* Modern Browsers */
+         url('Univers-CondensedBold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Univers-CondensedBold.svg#Univers-CondensedBold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

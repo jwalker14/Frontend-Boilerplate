@@ -1,0 +1,12 @@
+/* Webfont: Univers-ExtendedObl */@font-face {
+    font-family: 'UniversExtendedObl';
+    src: url('Univers-ExtendedObl.eot'); /* IE9 Compat Modes */
+    src: url('Univers-ExtendedObl.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Univers-ExtendedObl.woff') format('woff'), /* Modern Browsers */
+         url('Univers-ExtendedObl.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Univers-ExtendedObl.svg#Univers-ExtendedObl') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

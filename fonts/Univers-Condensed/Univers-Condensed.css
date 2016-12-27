@@ -1,0 +1,12 @@
+/* Webfont: Univers-Condensed */@font-face {
+    font-family: 'Univers57Condensed';
+    src: url('Univers-Condensed.eot'); /* IE9 Compat Modes */
+    src: url('Univers-Condensed.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Univers-Condensed.woff') format('woff'), /* Modern Browsers */
+         url('Univers-Condensed.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Univers-Condensed.svg#Univers-Condensed') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

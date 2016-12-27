@@ -1,0 +1,12 @@
+/* Webfont: Univers-BlackOblique */@font-face {
+    font-family: 'Univers-BlackOblique';
+    src: url('Univers-BlackOblique.eot'); /* IE9 Compat Modes */
+    src: url('Univers-BlackOblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Univers-BlackOblique.woff') format('woff'), /* Modern Browsers */
+         url('Univers-BlackOblique.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Univers-BlackOblique.svg#Univers-BlackOblique') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
